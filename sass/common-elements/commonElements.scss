@@ -53,6 +53,26 @@
   }
 }
 
+.downloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+
+  button {
+    border: 2px solid $link-hover;
+    margin-right: 10px;
+  }
+}
+
+.emailObc {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
+
+  &:hover {
+    color: $link-hover;
+  }
+}
 //mediaQuery
 
 @media (max-width: 405px) {

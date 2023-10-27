@@ -26,10 +26,6 @@
     background-image: url(./../../assets/falcon9/07.jpg);
   }
 
-  &.container02 {
-    background-image: url(./../../assets/falcon9/08.jpg);
-  }
-
   &.container07 {
     background-image: url(./../../assets/falcon9/08.jpg);
   }
@@ -91,25 +87,6 @@
   background-color: black;
 }
 
-.downloadDesc {
-  background-color: black;
-  height: 85vh;
-  padding-top: 240px;
-  a {
-    text-decoration: none;
-    color: white;
-    border-bottom: 1px solid white;
-
-    &:hover {
-      color: $link-hover;
-    }
-  }
-
-  button {
-    border: 2px solid $link-hover;
-    margin-right: 10px;
-  }
-}
 .footer {
   background-color: black;
   height: 15vh;
